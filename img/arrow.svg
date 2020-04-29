@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 13" width="9" height="13">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-267 -571L1099 -571L1099 5139L-267 5139Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #212121 } 
+	</style>
+	<g id="home-page copy 2" clip-path="url(#cp1)">
+		<g id="home-page copy">
+			<g id="body copy">
+				<g id="slider copy 2">
+					<g id="slider-content copy 2">
+						<g id="btn-hover copy 5">
+							<path id="arrow copy 8" class="shp0" d="M2.17 12.03L8.17 6.03L2.17 0.03L0.74 1.44L5.34 6.03L0.74 10.62L2.17 12.03Z" />
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
