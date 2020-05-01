@@ -174,6 +174,9 @@
   background-color: #ffffff;
   position: relative;
 }
+.featured ul {
+  padding-inline-start: 0px;
+}
 .featured-title {
   display: flex;
   align-items: center;
@@ -222,9 +225,6 @@
   grid-template-columns: repeat(4, 1fr);
   column-gap: 30px;
   width: 100%;
-}
-.featured ul {
-  padding-inline-start: 0px;
 }
 @media screen and (max-width: 1300px) {
   .featured-content-list,
@@ -431,6 +431,20 @@
   padding-top: 283px;
   position: absolute;
 }
+.hotDeal-text p {
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  width: 458px;
+  height: 45px;
+  overflow: hidden;
+  letter-spacing: -0.18px;
+  padding: 15px 0 30px 0;
+  margin-top: -10px;
+  margin-bottom: 0;
+  box-sizing: content-box;
+}
 .hotDeal-tag {
   color: #e53935;
   font-size: 18px;
@@ -445,20 +459,6 @@
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: -0.06em;
-}
-.hotDeal-text p {
-  color: #6c6c6c;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
-  width: 458px;
-  height: 45px;
-  overflow: hidden;
-  letter-spacing: -0.18px;
-  padding: 15px 0 30px 0;
-  margin-top: -10px;
-  margin-bottom: 0;
-  box-sizing: content-box;
 }
 /* ------ EXCLUSIVE ------*/
 .exclusive {
@@ -633,17 +633,17 @@
 .footer-useful-text-col2 p {
   margin-bottom: 0.3rem;
 }
+.footer-useful-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 40px;
+}
 .footer-useful-text p {
   color: #212121;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.45px;
-}
-.footer-useful-text {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 40px;
 }
 .footer-letsStay-text {
   color: #212121;

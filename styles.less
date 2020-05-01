@@ -201,10 +201,9 @@
   text-align: center;
   text-decoration: none;
   letter-spacing: 0.2em;
-}
-
-.button img {
-  margin-left: 8px;
+  img {
+    margin-left: 8px;
+  }
 }
 
 .button:hover {
@@ -219,6 +218,9 @@
   padding-top: 100px;
   background-color: @colorWhite;
   position: relative;
+  ul {
+    padding-inline-start: 0px;
+  }
 }
 
 .featured-title {
@@ -278,10 +280,6 @@
   width: 100%;
 }
 
-.featured ul {
-  padding-inline-start: 0px;
-}
-
 @media screen and (max-width: 1300px) {
   .featured-content-list,
   .featured-content-activeate {
@@ -337,11 +335,10 @@
   width: 48px;
   height: 48px;
   margin-bottom: 15px;
-}
-
-.icon-hover img {
-  height: 20px;
-  margin: 5px 0 0 2px;
+  img {
+    height: 20px;
+    margin: 5px 0 0 2px;
+  }
 }
 
 .featured-content-active-block {
@@ -515,6 +512,20 @@
 .hotDeal-text {
   padding-top: 283px;
   position: absolute;
+  p {
+    color: @colorDarkGray;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 458px;
+    height: 45px;
+    overflow: hidden;
+    letter-spacing: -0.18px;
+    padding: 15px 0 30px 0;
+    margin-top: -10px;
+    margin-bottom: 0;
+    box-sizing: content-box;
+  }
 }
 
 .hotDeal-tag {
@@ -532,21 +543,6 @@
   font-weight: 100;
   text-transform: uppercase;
   letter-spacing: -0.06em;
-}
-
-.hotDeal-text p {
-  color: @colorDarkGray;
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 24px;
-  width: 458px;
-  height: 45px;
-  overflow: hidden;
-  letter-spacing: -0.18px;
-  padding: 15px 0 30px 0;
-  margin-top: -10px;
-  margin-bottom: 0;
-  box-sizing: content-box;
 }
 
 /* ------ EXCLUSIVE ------*/
@@ -723,14 +719,13 @@
   width: 221px;
   overflow: hidden;
   padding-top: 13px;
-}
-
-.footer-contacts-text p {
-  color: @colorBlack;
-  font-size: 14px;
-  font-weight: 300;
-  letter-spacing: -0.25px;
-  line-height: 23px;
+  p {
+    color: @colorBlack;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: -0.25px;
+    line-height: 23px;
+  }
 }
 
 .footer-useful {
@@ -750,18 +745,17 @@
   margin-bottom: 0.3rem;
 }
 
-.footer-useful-text p {
-  color: @colorBlack;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.45px;
-}
-
 .footer-useful-text {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 40px;
+  p {
+    color: @colorBlack;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+  }
 }
 
 .footer-letsStay-text {
@@ -1098,32 +1092,29 @@
   font-weight: 300;
   letter-spacing: 0.2px;
   margin-top: 48px;
-}
-
-.product-text p {
-  margin-bottom: 0.8rem;
+  p {
+    margin-bottom: 0.8rem;
+  }
 }
 
 .related {
   background-color: @colorWhite;
   margin-top: 70px;
-}
-
-.related .trending-title {
-  margin-top: 110px;
-}
-
-.related .trending-albom {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  row-gap: 30px;
-  column-gap: 30px;
-  width: 1170px;
-  height: 370px;
-  overflow: hidden;
-  margin-top: 58px;
-  margin-bottom: 120px;
+  .trending-title {
+    margin-top: 110px;
+  }
+  .trending-albom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    width: 1170px;
+    height: 370px;
+    overflow: hidden;
+    margin-top: 58px;
+    margin-bottom: 120px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
